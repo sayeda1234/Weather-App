@@ -1,0 +1,15 @@
+.InfoBox {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.weather-image{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.cityName {
+  font-size: 30px !important;
+  margin-bottom: 15px !important;
+}
