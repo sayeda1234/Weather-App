@@ -1,16 +1,51 @@
-# React + Vite
+# 🌦️ Weather App – React + Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Weather Application built using **React.js**, **Vite**, and **Material UI**.  
+This app allows users to search for any city and view real-time weather details like temperature, humidity, pressure, and min/max temperature.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search weather by city name
+- 🌡️ Displays temperature, humidity, pressure
+- 🖼️ Weather image inside Material UI Card
+- 🎨 Clean and modern UI using MUI
+- 📱 Fully responsive and centered layout
+- ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **UI Library:** Material UI (MUI)
+- **API:** OpenWeatherMap API
+- **Styling:** CSS
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+git clone  https://github.com/sayeda1234/Weather-App.git
+
+### 2️⃣ Install dependencies
+npm install
+
+### 3️⃣ Run the project
+npm run dev
+
+-----
+## 🔑 API Setup
+
+- This project uses the OpenWeatherMap API.
+
+- Create a free account: https://openweathermap.org/api
+
+- Generate your API key
+
+- Add it inside your project where fetch request is made:
+ const API_KEY = "YOUR_API_KEY";
